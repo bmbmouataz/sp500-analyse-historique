@@ -1,0 +1,34 @@
+# Secrets et configuration locale
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# Environnements Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Bases de données locales
+*.db
+*.sqlite
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Compléments de sécurité
+credentials*
+secrets*
+*.log
+*.swp
+*~
